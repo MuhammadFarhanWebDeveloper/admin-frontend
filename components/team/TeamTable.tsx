@@ -209,7 +209,7 @@ const columns: ColumnDef<TeamMember>[] = [
           ? Briefcase
           : User;
       return (
-        <div className={`flex items-center gap-3 ${accessLevel==="Admin"?"bg-green-600":"bg-green-800"} w-[140px] py-2 rounded-sm px-3`}>
+        <div className={`flex items-center gap-3 ${accessLevel==="Admin"?"bg-green-600":"bg-green-800"} w-[140px] py-2 rounded-sm text-white px-3`}>
           <Icon size={20}/>
           {accessLevel}
         </div>
